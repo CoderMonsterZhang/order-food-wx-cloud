@@ -8,14 +8,14 @@
 ## 📸 效果展示
 
 <!-- 在这里添加小程序效果图片，格式如下： -->
-<!-- 
+
 ![首页](./miniprogram/images/bg.png)
 ![点餐页面](images/screenshot2.png)
 ![充值页面](images/screenshot3.png)
 ![订单页面](images/screenshot4.png)
 ![个人中心](images/screenshot5.png)
 ![管理后台](images/screenshot6.png)
--->
+
 
 
 ---

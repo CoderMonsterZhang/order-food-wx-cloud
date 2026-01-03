@@ -4,6 +4,7 @@
 
 背景：市面上不缺点餐系统，但是贵？不好用？所以我开发了这款非常适合餐饮店的点餐小程序。
 
+#### 功能亮度：一键生成桌码、打印菜单小票（不需要人工手写菜单）
 
 ## 📸 效果展示
 
@@ -85,6 +86,11 @@
       <br />
       <div align="center">小票示例</div>
     </td>
+       <td width="25%">
+      <img src="./miniprogram/images/githubImg/jsdd.jpg" alt="结算订单页面" />
+      <br />
+      <div align="center">结算订单页面</div>
+    </td>
   </tr>
 </table>
 
@@ -96,7 +102,7 @@
 
 ### 👤 顾客功能
 
-#### 1. 在线点餐
+#### 1. 在线点餐（支持堂食和打包）
 - ✅ 菜品分类浏览，清晰直观
 - ✅ 购物车管理，方便快捷
 - ✅ 微信支付、余额支付
@@ -153,7 +159,7 @@
 #### 1. 获取项目代码
 
 ```bash
-git clone [项目地址]
+git clone https://github.com/yangxiaohan168/orderFood-wxCloud.git
 cd orderFood-wxCloud
 ```
 
@@ -236,12 +242,22 @@ wx.cloud.init({
 - `printManage` - 打印机管理
 
 
-#### 6. 运行项目
+
+#### 6. 修改生成桌码的背景图
+
+把images文件夹里的bg.png图片上传到云存储，得到url，把/pages/admin/tableCode/tableCode.js里面的bgImg变量的值替换为url
+```
+const bgImg = "把images文件夹的bg.png上传到云存储，得到url。你的背景图片URL放这里"
+```
+
+#### 7. 删除images/githubImg文件夹，避免代码包过大，没法上传代码
+
+#### 8. 运行项目
 
 1. 在微信开发者工具中点击"编译"按钮
 2. 小程序会自动运行并显示在模拟器中
 
-#### 7. 进入管理后台
+#### 8. 进入管理后台
 
 1. 点击底部"我的"标签，进入个人中心
 2. **在页面右下角空白区域连续快速点击 5 次**（1秒内完成）

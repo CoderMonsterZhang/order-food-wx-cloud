@@ -285,10 +285,6 @@ wx.cloud.init({
 
 部署遇到问题的，需要协助可以v：yxh1168888
 
-
-<div align="center">
-  <img src="./miniprogram/images/githubImg/skm.png" width="300" alt="微信收款码"/>
-</div>
 <table>
   <tr>
     <td width="25%">
@@ -297,9 +293,9 @@ wx.cloud.init({
       <div align="center">打赏支持</div>
     </td>
     <td width="25%">
-      <img src="./miniprogram/images/githubImg/hycz.jpg" alt="充值页面" />
+      <img src="./miniprogram/images/githubImg/wx.jpg" alt="微信页面" />
       <br />
-      <div align="center">微信</div>
+      <div align="center">微信(备注来意)</div>
     </td>
   </tr>
 </table>

@@ -344,29 +344,6 @@ const bgImg = "把images文件夹的bg.png上传到云存储，得到url。你�
 
 
 
----
 
-## 💰 打赏支持
-
-如果这个项目对你有帮助，欢迎打赏支持！
-
-部署遇到问题的，需要协助可以v：yxh1168888
-
-<table>
-  <tr>
-    <td width="25%">
-      <img src="./miniprogram/images/githubImg/skm.png" alt="收款码" />
-      <br />
-      <div align="center">打赏支持</div>
-    </td>
-    <td width="25%">
-      <img src="./miniprogram/images/githubImg/wx.jpg" alt="微信页面" />
-      <br />
-      <div align="center">微信(备注来意)</div>
-    </td>
-  </tr>
-</table>
-
----
 
 **祝生意兴隆！** 🎉
